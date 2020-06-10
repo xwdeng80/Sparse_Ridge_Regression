@@ -100,11 +100,11 @@ def update_dif(Ainv,Ynew, xnew):
     return value    
 
 
-k=30
+k=10 ## number of sparsity
 
 Strue=[]
 i = 1
-reader = csv.reader(open("beta_info_p5000k30.csv"))
+reader = csv.reader(open("beta_info_p1000k10.csv"))
 for line in reader:  # iterate over the lines in the csv
     rows=[]
     if i>=2:
@@ -116,7 +116,7 @@ for line in reader:  # iterate over the lines in the csv
 y = []
 X =[]
 i = 1
-reader = csv.reader(open("data_n5000p5000k30_rep1.csv"))
+reader = csv.reader(open("data_n500p1000k10_rep1.csv"))
 for line in reader:  # iterate over the lines in the csv
     rows=[]
     if i>=2:
