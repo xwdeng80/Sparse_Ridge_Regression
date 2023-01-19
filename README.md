@@ -9,4 +9,6 @@ Please choose a proper tuning parameter lambda
 
 
 Reference:
-Xie, Weijun, and Xinwei Deng. "Scalable algorithms for sparse ridge regression." arXiv preprint arXiv:1806.03756 (2020).
+Xie, W., and Deng, X. (2020). Scalable Algorithms for the Sparse Ridge Regression, SIAM Journal on Optimization, 30(4), 3359-3386.
+
+The manuscript can be found from https://arxiv.org/pdf/1806.03756.pdf
